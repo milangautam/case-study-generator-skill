@@ -1,4 +1,4 @@
-A Claude Skill for Product Designers
+## A Claude Skill for Product Designers
 
 A Claude skill that transforms raw project notes, accomplishment bullets, or brief descriptions into **senior-level portfolio case studies** in Markdown.
 
