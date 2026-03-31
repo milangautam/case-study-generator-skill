@@ -1,4 +1,4 @@
-# case-study-generator — A Claude Skill for Product Designers
+A Claude Skill for Product Designers
 
 A Claude skill that transforms raw project notes, accomplishment bullets, or brief descriptions into **senior-level portfolio case studies** in Markdown.
 
@@ -142,7 +142,7 @@ Open a PR or start a discussion.
 
 ## About
 
-Built by [Milan Gautam](https://in.linkedin.com/in/milangautam) — Senior Product Designer at Ticketmaster, 8+ years in enterprise SaaS.
+Built by [Milan Gautam](https://in.linkedin.com/in/milangautam) — Product Designer at Ticketmaster, 8+ years in enterprise SaaS.
 
 This skill was created as part of a personal system for documenting design work at scale. The case study structure is based on what actually moves hiring managers in senior design interviews — not portfolio trends.
 
