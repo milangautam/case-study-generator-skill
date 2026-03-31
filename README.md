@@ -68,32 +68,35 @@ The skill will ask you three targeted questions before writing if your input is 
 ## Example Output Structure
 
 ```markdown
-# Flex Plans Redesign
-**Role:** Product Designer (sole designer on NAM team)
-**Timeline:** 2023–2024 (~4 months)
-...
+# Mobile Checkout Redesign
+**Role:** Product Designer (lead designer, 2-person team)
+**Timeline:** Q1 2024 (~3 months)
+**Platform:** iOS & Android (e-commerce)
 
-> Redesigned Flex Plans end-to-end during a critical platform migration —
-> introducing map-based seat selection that increased fan confidence, and
-> replacing backend-dependent client configuration with a fully CMS-driven
-> self-serve system. Validated through moderated remote testing with 24
-> participants across two competing design directions.
+> Redesigned the end-to-end mobile checkout flow for a mid-market
+> e-commerce platform — reducing drop-off by 28% by replacing a
+> 6-step linear flow with a progressive disclosure model. Validated
+> through unmoderated usability testing with 32 participants across
+> two competing interaction patterns.
 
 ## Design Decisions
 
-**Decision: Run a split test between Best Available and Map-Based seat
-selection — rather than committing to one direction upfront**
+**Decision: Use progressive disclosure over a step-by-step wizard —
+rather than reducing the number of steps**
 
 Why I chose this over alternatives: The team's initial assumption was
-that Best Available was the right model. I wasn't convinced. The support
-data pointed to location uncertainty as the core fan problem, and Best
-Available does nothing to address that...
+that the drop-off was caused by too many steps. I wasn't convinced.
+Session recordings pointed to users abandoning when asked for payment
+details before seeing a final order summary — a trust problem, not a
+length problem. Progressive disclosure let users commit incrementally...
 
-What I had to give up: Designing two fully realized prototypes in the
-same window was expensive...
+What I had to give up: Progressive disclosure required tighter
+coordination with engineering to handle partial state saves.
+That added two weeks to the build...
 
-How I validated it: Moderated remote testing via UserZoom with 24
-participants. Map-Based showed measurably higher confidence scores...
+How I validated it: Unmoderated testing via Maze with 32 participants
+across both prototypes. The progressive model showed a 34% higher
+task completion rate and significantly lower perceived effort scores...
 ```
 
 ---
